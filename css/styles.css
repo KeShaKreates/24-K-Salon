@@ -425,7 +425,7 @@ ul > img {
 
 .nav-menu{
     position: fixed;
-    left: -30%;
+    left: -50%;
     top: 30px;
     margin: 40px 5px;
     flex-direction: column;
@@ -446,7 +446,7 @@ ul > img {
 }
 
 .nav-menu.active{
-    left:0;
+    left: 0px;
 }
 
 .nav-logo {
