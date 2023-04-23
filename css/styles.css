@@ -333,7 +333,7 @@ h2 + section img {
 
 }
 .plussign {
-    background-color: black;
+    background: #000000;    
     filter: brightness(25%);
 }
 
@@ -346,6 +346,10 @@ h2 + section img {
 
 a:hover {
     color: #ff5a15;
+    cursor: pointer;
+}
+
+.plussign:hover {
     cursor: pointer;
 }
 
@@ -627,6 +631,10 @@ h2 + section img {
     height: 255px;
 }
 
+.plussign {
+    padding: 40px 60px;
+}
+
 /* Extra Styling */
 
 a:hover {
@@ -860,6 +868,11 @@ section + h2 {
 .item6 {
     max-width: 300px;
 }
+
+.plussign {
+    padding: 40px 80px;
+}
+
 }
 
 /* Media Queriers Desktop Size */
@@ -989,5 +1002,9 @@ section + h2 {
 .item6 {
     max-width: 350px;
 }
+.plussign {
+    padding: 40px 100px;
+}
+
 }
 
