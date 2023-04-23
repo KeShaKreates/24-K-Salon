@@ -387,6 +387,10 @@ li > a{
 
 /* Header */
 
+.navbar {
+    min-height: 1px;
+}
+
 nav {
     height: 35px;
     text-align: center;
@@ -471,7 +475,8 @@ ul > img {
     margin-bottom: 75px;
     display: block;
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 400px;
+    height: 400px;
 }
 
 header + section {
@@ -484,7 +489,7 @@ h1 {
 }
 
 a + div {
-    width: 40%;
+    width: 50%;
 }
 
  /* Expert Beauty Quality */
@@ -556,10 +561,11 @@ div + section div {
 }
 
 .stylists {
-    border-left: white solid 25px;
-    border-right: white solid 25px;
-    height: 90px;
+    border-left: white solid 10px;
+    border-right: white solid 10px;
+    height: 105px;
     margin: 0 auto;
+    font-size: 10px;
 }
 
 /* Colour Day */
@@ -574,6 +580,47 @@ div + section div {
 section + h2 { 
     margin-top: 355px;
     margin-bottom: 35px;
+}
+
+h2 + section {
+    padding-right: 5px;
+}
+
+h2 + section img {
+    height: 125px;
+}
+
+.longimg{
+    height: 255px;
+}
+
+.grid-container {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    row-gap: 5px;
+    column-gap: 5px;
+    grid-template-rows: 125px 125px 125px;
+}
+
+.griditem {
+    min-width: 115px;
+    height:  125px;
+}
+
+.item2 {
+    min-width: 115px;
+    height: 255px;
+}
+
+.item4 {
+    min-width: 115px;
+    height: 255px;
+}
+
+.item6 {
+    min-width: 115px;
+    height: 255px;
 }
 
 /* Extra Styling */
