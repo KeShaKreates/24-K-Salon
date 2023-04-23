@@ -332,6 +332,10 @@ h2 + section img {
     grid-row: 2/ span 2;
 
 }
+.plussign {
+    background-color: black;
+    filter: brightness(25%);
+}
 
 .hiddenitems {
     background-color: transparent;
